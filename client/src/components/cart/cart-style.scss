@@ -1,0 +1,87 @@
+$font-color: gray;
+$button-color: #2879fe;
+$danger: red;
+
+.cart {
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  z-index: 888;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 6px 16px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 16px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 16px 1px rgba(0, 0, 0, 0.75);
+
+  h2 {
+    margin-bottom: 30px;
+    color: $font-color;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    img {
+      width: 80px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .details {
+      h2 {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      p {
+        color: $font-color;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+
+      .price {
+        color: $button-color;
+      }
+    }
+
+    .delete {
+      color: $danger;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 250px;
+    padding: 10px;
+    background-color: $button-color;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    margin: 10px auto;
+  }
+
+  .reset {
+    color: $danger;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+}

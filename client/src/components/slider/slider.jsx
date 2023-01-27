@@ -7,8 +7,8 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     "https://www.media.hw-static.com/media/2020/05/henrycavill_justiceleaguepremiere.jpg",
-    "https://c4.wallpaperflare.com/wallpaper/244/670/404/3d-hd-2560x1440-nice-wallpaper-preview.jpg",
-    "https://wallup.net/wp-content/uploads/2018/09/27/7391-abstract-lights-bokeh-digital-art.jpg",
+    "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "https://www.koimoi.com/wp-content/new-galleries/2023/01/henry-cavills-hilarious-response-to-whod-win-a-fist-fight-between-him-tom-cruise-01.jpg",
   ];
 
   const prevSlide = () => {
